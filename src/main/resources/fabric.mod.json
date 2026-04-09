@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nicehud",
+  "version": "${version}",
+  "name": "NiceHUD",
+  "description": "Beautiful draggable HUD elements powered by MiniHUD data.",
+  "authors": ["nicehud"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["fi.dy.masa.nicehud.init.NiceHUDInit"] },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": ">=1.21.6",
+    "java": ">=21",
+    "fabric-api": "*",
+    "minihud": "*"
+  }
+}
